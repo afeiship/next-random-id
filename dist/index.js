@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-random-id
+ * name: @jswork/next-random-id
  * description: Random short string.
  * homepage: https://github.com/afeiship/next-random-id
  * version: 1.0.0
- * date: 2020-06-02T05:24:08.467Z
+ * date: 2020-11-21 10:25:09
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.randomId = function (inLength) {
     var str = Math.random().toString(36);
@@ -18,10 +18,7 @@
     return str.substring(len - count);
   };
 
-
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = nx.randomId;
   }
 })();
-
-//# sourceMappingURL=next-random-id.js.map
