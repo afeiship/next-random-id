@@ -3,7 +3,7 @@
  * description: Random short string.
  * homepage: https://github.com/afeiship/next-random-id
  * version: 1.0.0
- * date: 2020-11-21 10:25:09
+ * date: 2020-11-21 10:26:11
  * license: MIT
  */
 
